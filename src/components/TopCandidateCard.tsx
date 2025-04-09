@@ -15,7 +15,7 @@ export const TopCandidateCard = ({
   return (
     <div className="p-6 space-y-4 bg-white rounded-xl overflow-hidden">
       {/* Header with rank and score */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 flex-wrap">
         <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#0015BC] text-white font-bold text-xl shadow-md">
           #{rank}
         </div>

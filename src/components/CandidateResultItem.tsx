@@ -17,7 +17,7 @@ export const CandidateResultItem = ({
 }: CandidateResultItemProps) => {
   return (
     <div
-      className={`flex ${
+      className={`flex flex-wrap ${
         isPreview ? "items-center gap-2" : "items-center gap-4"
       } p-4 hover:bg-[#E6E8FF] transition-colors rounded-lg`}
     >
@@ -31,7 +31,9 @@ export const CandidateResultItem = ({
       <div className={`${!isPreview ? "flex-1" : ""} space-y-1`}>
         <div className="font-medium text-[#000852]">{name}</div>
         {!isPreview && currentJob && (
-          <div className="text-sm text-[#001099]">{currentJob}</div>
+          <div className="text-sm text-[#001099] min-w-[160px]">
+            {currentJob}
+          </div>
         )}
       </div>
       <div className="text-sm text-[#001099]">
