@@ -23,7 +23,7 @@ export const Header = () => {
               <img
                 src={donkey}
                 alt="Democratic Party Donkey"
-                className="w-full h-full invert"
+                className="w-full h-full"
               />
             </div>
           </div>
