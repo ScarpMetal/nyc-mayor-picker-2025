@@ -8,7 +8,7 @@ export const Header = () => {
           <div>
             <h1 className="text-2xl md:text-3xl font-bold">
               <a
-                href="/"
+                href="/nyc-mayor-picker-2025/"
                 className="text-white hover:text-[#C7CBFF] transition-colors"
               >
                 NYC Mayor Picker 2025
